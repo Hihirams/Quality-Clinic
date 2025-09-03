@@ -1,4 +1,4 @@
-﻿# --- Unity ---
+﻿# === Unity ===
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -7,8 +7,20 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 UserSettings/
-[Bb]urstCache/
-# Cache / compilación
+sysinfo.txt
+
+# Cache del editor de Unity
+*.unitypackage
+
+# === Visual Studio / Rider ===
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
 *.pidb
 *.booproj
 *.svd
@@ -16,22 +28,14 @@ UserSettings/
 *.mdb
 *.opendb
 *.VC.db
-*.tmp
-*.log
-*.unitypackage
-.vs/
-.idea/
-.vscode/
-*.csproj
-*.sln
-*.suo
-*.user
-*.userprefs
-.DS_Store
-Thumbs.db
+
+# === Build artefacts ===
 *.apk
 *.aab
-*.ipa
-*.app
-*.exe
-*.dll
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
