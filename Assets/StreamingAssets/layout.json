@@ -1,0 +1,7 @@
+{
+  "machines": [
+    { "id": "A", "name": "Press A", "status": "RUN",   "output": 120 },
+    { "id": "B", "name": "Press B", "status": "STOP",  "output": 0   },
+    { "id": "C", "name": "Press C", "status": "ALARM", "output": 15  }
+  ]
+}
